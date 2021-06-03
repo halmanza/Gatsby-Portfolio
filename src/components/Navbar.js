@@ -7,16 +7,18 @@ export default function Navbar({}) {
     query SiteInfo {
         site {
           siteMetadata {
-            title
+            title,
+            description
           }
         }
       }
     `)
 
-    const {title}=data.site.siteMetadata;
+    const {title,description}=data.site.siteMetadata;
     return (
         <nav>
             <h1>{title}</h1>
+            <h2>{description}</h2>
             <div className="links">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
