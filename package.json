@@ -15,8 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.4.1",
+    "gatsby": "^3.6.2",
+    "gatsby-source-filesystem": "^3.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "gatsby-transformer-remark": "^4.3.0",
+    "postcss": "^8.3.0",
+    "sanitize-html": "^2.4.0",
+    "trim": "^1.0.1",
+    "ws": "^7.4.6"
   }
 }

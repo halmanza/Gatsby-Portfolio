@@ -1,13 +1,11 @@
-import { graphql, Link } from "gatsby";
 import React from "react";
-
+import {  Link } from "gatsby";
 
 import Layout from "../components/Layout";
 import * as style from "../styles/home.module.css";
 
 // markup
 const IndexPage = () => {
-  
   return (
     <Layout>
       <section className={style.header}>
@@ -26,11 +24,8 @@ const IndexPage = () => {
           style={{ maxWidth: "100%" }}
         />
       </section>
-
-     
     </Layout>
   );
-};
-
+}
 
 export default IndexPage;
