@@ -4,7 +4,7 @@ module.exports = {
   },
   plugins: [],
   siteMetadata:{
-    title:'Anthony || Almanza',
+    title:'Anthony/Almanza',
     description: 'Arizona Based Developer ',
     copyright: 'Copyright 2021'
   }

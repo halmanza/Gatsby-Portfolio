@@ -14,11 +14,10 @@ export default function Navbar({}) {
       }
     `)
 
-    const {title,description}=data.site.siteMetadata;
+    const {title}=data.site.siteMetadata;
     return (
         <nav>
             <h1>{title}</h1>
-            <h2>{description}</h2>
             <div className="links">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
