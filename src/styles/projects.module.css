@@ -9,6 +9,12 @@
     font-size: 2em;
     font-weight: 400;
 }
+.portfolio p> a:hover{
+  color:red;
+  font-size: 1.5rem;
+  transition-duration: 3s;
+  
+}
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
